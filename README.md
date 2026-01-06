@@ -19,6 +19,12 @@ This notebook handles the **Data Processing** phase, transforming raw biological
     * **Signal Processing:** Utilizes `mne` and `scipy` to clean and analyze raw brainwave signals.
     * **Feature Engineering:** Extracts **Linear Features** (statistics of alpha, beta, and theta waves) and **Non-Linear Features** (complexity and entropy measures using the `antropy` library).
     * **Emotional Categorization:** Features are organized and extracted based on three specific emotional triggers: **Happy**, **Sad**, and **Fear**.
+ 
+![EEG Signal Analysis 1](images/EEG-1.png)
+*Figure 1: Visualization of 128 EEG ERP channels*
+
+![EEG Signal Analysis 2](images/EEG-2.png)
+*Figure 2: EEG Signals before and after signal processing*
 
 ### 2. Model Development (`Create_Model.ipynb`)
 This notebook handles the **Machine Learning** phase, where the processed features are used to train and evaluate predictive models.
